@@ -30,4 +30,4 @@ You can find a script to create your own events table with sample data in `resou
 
 **SPOILERS**
 
-I have included a bonus fourth strategy: a user-definied table function written in Javascript. This UDTF outperforms pure-SQL strategies for large volumes of data and complex funnel patterns.
+I have included a bonus fourth strategy: a user-defined table function written in Javascript. This UDTF outperforms pure-SQL strategies for large volumes of data and complex funnel patterns.
