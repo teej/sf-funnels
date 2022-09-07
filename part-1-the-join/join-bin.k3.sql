@@ -23,7 +23,7 @@ SET bin_size_sec = $sequence_duration_sec * 5;
    SELECT user_id
         , event_at
         , event_name
-        , FLOOR(DATE_PART(epoch_second, event_at) / ($bin_size_sec)) AS bin
+        , FLOOR(DATE_PART(epoch_second, event_at) / ($bin_size_sec)) + 1 AS bin
      FROM events
     WHERE event_name IN ('A', 'B', 'C')
 
